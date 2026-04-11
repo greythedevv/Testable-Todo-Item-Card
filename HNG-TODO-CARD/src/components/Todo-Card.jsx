@@ -119,6 +119,7 @@ export function TodoCard() {
             type="checkbox"
             data-testid="test-todo-complete-toggle"
             checked={completed}
+             aria-label="Mark task as completed"
             onChange={handleToggle}
             className="w-4 h-4 accent-blue-600 cursor-pointer"
           />
@@ -128,7 +129,7 @@ export function TodoCard() {
         {/* TAGS */}
         <ul role="list"
           data-testid="test-todo-tags"
-          className=" gap-4 mt-4 "
+          className="flex flex-wrap gap-2 mt-4 "
         >
           <li
             data-testid="test-todo-tag-work"
@@ -142,7 +143,9 @@ export function TodoCard() {
           >
             urgent
           </li>
-          <li className="px-2 py-1 text-xs rounded-full bg-gray-100 text-gray-700 ">
+          <li 
+          data-testid="test-todo-tag-design"
+          className="px-2 py-1 text-xs rounded-full bg-gray-100 text-gray-700 ">
             design
           </li>
         </ul>
