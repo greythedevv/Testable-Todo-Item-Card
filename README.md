@@ -333,7 +333,7 @@ npm run deploy
 ## 👤 Author
 
 **Greatness**
-- GitHub: [@YOUR_USERNAME](https://github.com/greythedevv)
+- GitHub: [@greythedevv](https://github.com/greythedevv)
 
 ---
 
